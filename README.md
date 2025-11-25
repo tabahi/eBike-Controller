@@ -376,7 +376,6 @@ dummy_run();               // Run motor at full speed
 
 This project is provided as-is for educational and DIY purposes.
 
-## 🔗 Resources
 
 
 ---
