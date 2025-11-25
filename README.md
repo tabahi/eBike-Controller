@@ -2,7 +2,7 @@
 
 A DIY electric bike motor controller with comprehensive hardware validation, safety features, and diagnostic capabilities. This project includes both simple test code for getting started and full-featured firmware for production use.
 
-![eBike BLDC Motor Controller — case](pictures/IMG_20240827_000616048_HDR.jpg)
+![eBike BLDC Motor Controller — case](pictures/case_photo.png)
 
 
 
