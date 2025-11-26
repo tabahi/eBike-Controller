@@ -9,37 +9,13 @@ A DIY electric bike motor controller with comprehensive hardware validation, saf
 ## 🎯 Features
 
 ### Motor Control
+- The PCB design supports up to 2000W at 72V or 1000W at 48V using 18 MOSFETs, or simply use 6 MOSFETs for low power drive.
 - **6-step trapezoidal commutation** based on hall sensor feedback
 - **PWM speed control** with configurable frequencies (3.9-7.8 kHz)
 - **Smooth acceleration ramping** for comfortable riding
 - **Shoot-through protection** to prevent MOSFET damage
+- **Isense** shunt resistence is inherent in the PCB tracks (around 0.2ohms).
 
-### Safety & Protection
-- **Comprehensive startup diagnostics**
-  - MOSFET functionality testing
-  - Hall sensor validation
-  - Voltage level verification
-  - Current sensing validation
-- **Runtime protection**
-  - Overcurrent detection and shutdown
-  - Battery undervoltage monitoring with audio warnings
-  - Invalid hall state detection
-  - Emergency halt signal support
-- **Idle power management** with automatic sleep modes
-
-### User Interface
-- **Throttle input** with analog potentiometer support
-- **Audio feedback** via buzzer
-  - Battery level warnings (4-stage progressive alerts)
-  - Error notifications with unique patterns
-  - Startup confirmation
-- **Pedal Assist Sensor (PAS)** support (reserved)
-
-### Diagnostics
-- **Serial debugging** at 115200 baud
-- **Real-time telemetry** (voltage, current, hall states)
-- **Comprehensive error codes**
-- **Temperature sensing** support (NTC thermistor)
 
 ## 📁 Project Structure
 
